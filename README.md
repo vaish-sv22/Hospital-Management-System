@@ -155,6 +155,3 @@ This project provided practical experience with:
 - CRUD Application Development
 
 
-## License
-
-This project is developed for educational and learning purposes.
