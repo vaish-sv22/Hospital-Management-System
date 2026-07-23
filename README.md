@@ -57,21 +57,7 @@ A web-based **Hospital Management System (HMS)** developed using **Java Web Tech
 
 ## Project Architecture
 
-
-Client (Browser)
-        │
-        ▼
- JSP Pages (View)
-        │
-        ▼
-Java Servlets (Controller)
-        │
-        ▼
-DAO Layer (JDBC)
-        │
-        ▼
-MySQL Database
-
+The Hospital Management System follows the **MVC (Model-View-Controller)** architecture. Users interact with the application through a web browser, where requests are handled by **Java Servlets**. The Servlets communicate with the **DAO layer** using **JDBC** to perform database operations, while **MySQL** stores and manages all application data.
 
 ---
 
